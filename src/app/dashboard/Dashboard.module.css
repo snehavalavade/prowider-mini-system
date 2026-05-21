@@ -1,0 +1,136 @@
+.container {
+    min-height: 100vh;
+    background: #0f172a;
+    padding: 40px;
+    color: white;
+}
+
+.title {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+
+.grid {
+    display: grid;
+
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+
+    gap: 24px;
+}
+
+.card {
+    background: #1e293b;
+    border-radius: 18px;
+    padding: 24px;
+
+    border: 1px solid #334155;
+
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    border-color: #3b82f6;
+}
+
+.providerHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-bottom: 20px;
+}
+
+.providerName {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.providerBadge {
+    background: #2563eb;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+.stats {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 24px;
+}
+
+.statBox {
+    flex: 1;
+    background: #334155;
+    padding: 14px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.statValue {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.statLabel {
+    font-size: 14px;
+    color: #cbd5e1;
+}
+
+.sectionTitle {
+    font-size: 18px;
+    margin-bottom: 14px;
+}
+
+.leadsContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.leadCard {
+    background: #0f172a;
+    border: 1px solid #334155;
+
+    border-radius: 12px;
+    padding: 14px;
+}
+
+.leadName {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.leadPhone {
+    color: #cbd5e1;
+    margin-top: 4px;
+}
+
+.serviceBadge {
+    margin-top: 10px;
+    display: inline-block;
+
+    background: #16a34a;
+    padding: 6px 10px;
+
+    border-radius: 999px;
+
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.emptyText {
+    color: #94a3b8;
+}
+
+.loading {
+    text-align: center;
+
+    font-size: 20px;
+
+    color: #cbd5e1;
+
+    margin-top: 50px;
+}

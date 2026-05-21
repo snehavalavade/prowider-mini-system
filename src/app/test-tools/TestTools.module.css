@@ -1,0 +1,58 @@
+.container {
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: #0f172a;
+}
+
+.card {
+    background: #1e293b;
+
+    padding: 40px;
+
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: column;
+
+    gap: 20px;
+
+    width: 400px;
+}
+
+.card h1 {
+    color: white;
+
+    text-align: center;
+}
+
+.card button {
+    padding: 14px;
+
+    border: none;
+
+    border-radius: 10px;
+
+    background: #2563eb;
+
+    color: white;
+
+    cursor: pointer;
+
+    font-size: 15px;
+}
+
+.message {
+    background: #16a34a;
+
+    color: white;
+
+    padding: 12px;
+
+    border-radius: 10px;
+
+    text-align: center;
+}
