@@ -21,9 +21,11 @@ export async function GET() {
 
         return NextResponse.json(providers);
     } catch (error) {
+        console.log(error);
+
         return NextResponse.json(
             {
-                error: "Failed to fetch dashboard",
+                error: error.message || "Failed to fetch dashboard",
             },
             {
                 status: 500,

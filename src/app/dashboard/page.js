@@ -14,7 +14,11 @@ export default function Dashboard() {
 
             const data = await response.json();
 
-            setProviders(data);
+            if (Array.isArray(data)) {
+                setProviders(data);
+            } else {
+                setError(data.error || "Failed to load dashboard");
+            }
         } catch (error) {
             console.log(error);
         }
