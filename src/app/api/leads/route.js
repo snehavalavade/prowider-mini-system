@@ -1,3 +1,4 @@
+export const dynamic = "force-dynamic";
 import { prisma } from "@/lib/prisma";
 import { allocateLead } from "@/lib/allocation";
 import { NextResponse } from "next/server";
