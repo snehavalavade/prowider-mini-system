@@ -1,3 +1,5 @@
+//layout page
+
 import "./globals.css";
 import Link from "next/link";
 
